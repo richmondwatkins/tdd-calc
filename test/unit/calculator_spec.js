@@ -10,7 +10,7 @@ describe('Calculator', function(){
    		it('should add two numbers', function(){  //describe block
    			var sum = Calculator.add(2,3);
    			expect(sum).to.equal(5);   //assertion
-   		}); 
+   		});
 	});
 
 	describe('.subtract', function(){
@@ -45,3 +45,4 @@ describe('Calculator', function(){
 		});
 	});
 });
+//
